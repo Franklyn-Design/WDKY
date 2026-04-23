@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.wdkangyuan.cn)",
+      "Bash(open \"/Users/franklyn/Library/Mobile Documents/com~apple~CloudDocs/Franklyn's Works/华兴长泰/WDKY Web/index.html\")",
+      "Bash(sort -k9)",
+      "Bash(perl -i -0pe ' *)",
+      "Bash(perl -i '' -pe \"s|images/万东康源 横白logo\\\\.png|images/logo/Wandong%20Kangyuan%27s%20horizontal%20white%20logo.png|g\" *.html)",
+      "Bash(perl -i '' -pe \"s|images/万东康源 横黑logo\\\\.png|images/logo/Wandong%20Kangyuan%27s%20horizontal%20black%20logo.png|g\" *.html)",
+      "Bash(perl -i '' -pe 's|images/8200b\\\\.png|images/Products/8200b.png|g' *.html)",
+      "Bash(perl -i '' -pe 's|images/8200a\\\\.png|images/Products/8200a.png|g' *.html)",
+      "Bash(perl -i '' -pe 's|images/8100a\\\\.png|images/Products/8100a.png|g' *.html)",
+      "Bash(python3 -)"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-key="contact">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="联系万东康源 — 产品咨询、技术支持与商务合作">
+  <title>联系我们 — 万东康源</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav">
+    <a href="index.html" class="nav__logo">
+      <img src="images/logo/Wandong%20Kangyuan%27s%20horizontal%20white%20logo.png" class="nav__logo-mark nav__logo-white" alt="万东康源">
+      <img src="images/logo/Wandong%20Kangyuan%27s%20horizontal%20black%20logo.png" class="nav__logo-mark nav__logo-dark"  alt="万东康源">
+    </a>
+    <nav class="nav__links">
+      <a href="index.html"    class="nav__link" data-i18n="nav.home">首页</a>
+      <a href="about.html"    class="nav__link" data-i18n="nav.about">关于我们</a>
+      <a href="products.html" class="nav__link" data-i18n="nav.products">产品中心</a>
+      <a href="news.html"     class="nav__link" data-i18n="nav.news">动态信息</a>
+      <a href="contact.html"  class="nav__link active" data-i18n="nav.contact">联系我们</a>
+      <a href="careers.html"  class="nav__link" data-i18n="nav.careers">人才招聘</a>
+    </nav>
+    <select class="lang-select" id="lang-select" aria-label="Language selector">
+      <option value="zh">中文</option>
+      <option value="en">English</option>
+      <option value="ko">한국어</option>
+      <option value="ja">日本語</option>
+    </select>
+    <button class="nav__burger" aria-label="菜单" data-i18n-aria="meta.menu"><span></span><span></span><span></span></button>
+  </header>
+  <div class="nav__mobile">
+    <button class="nav__mobile-close">✕</button>
+    <a href="index.html"    class="nav__mobile-link" data-i18n="nav.home">首页</a>
+    <a href="about.html"    class="nav__mobile-link" data-i18n="nav.about">关于我们</a>
+    <a href="products.html" class="nav__mobile-link" data-i18n="nav.products">产品中心</a>
+    <a href="news.html"     class="nav__mobile-link" data-i18n="nav.news">动态信息</a>
+    <a href="contact.html"  class="nav__mobile-link" data-i18n="nav.contact">联系我们</a>
+    <a href="careers.html"  class="nav__mobile-link" data-i18n="nav.careers">人才招聘</a>
+  </div>
+
+  <!-- Page Hero -->
+  <div class="page-hero page-hero--gray">
+    <p class="page-hero__eyebrow reveal" data-i18n="cont.hero.eyebrow">CONTACT</p>
+    <h1 class="page-hero__title reveal delay-1" data-i18n="cont.hero.title">联系我们</h1>
+    <p class="page-hero__sub reveal delay-2" data-i18n="cont.hero.sub">
+      期待与您的合作与交流
+    </p>
+  </div>
+
+  <!-- Contact Grid -->
+  <section class="section section--white">
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="reveal">
+        <h2 style="font-size:28px;font-weight:700;letter-spacing:-.5px;margin-bottom:32px;" data-i18n="cont.info.title">直接联系</h2>
+        <div class="contact-info__item">
+          <div class="contact-info__label" data-i18n="cont.info.hotline">客服热线（免费）</div>
+          <div class="contact-info__value">
+            <a href="tel:4006881550">4006-881-550</a>
+          </div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__label" data-i18n="cont.info.phone">公司总机</div>
+          <div class="contact-info__value">
+            <a href="tel:01067802566">010-67802566</a>
+          </div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__label" data-i18n="cont.info.email">电子邮箱</div>
+          <div class="contact-info__value">
+            <a href="mailto:wandongkangyuan@wdkangyuan.cn">wandongkangyuan@wdkangyuan.cn</a>
+          </div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__label" data-i18n="cont.info.address">公司地址</div>
+          <div class="contact-info__value" data-i18n-html="cont.info.address.val">北京市经济技术开发区<br>科创四街 3 号院</div>
+        </div>
+        <div class="contact-info__item">
+          <div class="contact-info__label" data-i18n="cont.info.hours">工作时间</div>
+          <div class="contact-info__value" data-i18n="cont.info.hours.val">周一至周五 09:00 — 18:00</div>
+        </div>
+
+        <!-- Map placeholder -->
+        <div style="margin-top:36px;background:var(--gray-5);border-radius:var(--radius);height:200px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;border:1px solid var(--gray-4);">
+          <span style="font-size:36px;">🗺️</span>
+          <span style="font-size:14px;color:var(--gray-2);">北京经济技术开发区 · 科创四街3号院</span>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="reveal delay-2">
+        <h2 class="contact-form__title" data-i18n="cont.form.title">在线留言</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" data-i18n="form.label.name">姓名</label>
+              <input type="text" id="name" placeholder="您的姓名" required data-i18n-ph="form.name.ph">
+            </div>
+            <div class="form-group">
+              <label for="phone" data-i18n="form.label.phone">联系电话</label>
+              <input type="tel" id="phone" placeholder="手机号码" data-i18n-ph="form.phone.ph">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form.label.email">电子邮箱</label>
+            <input type="email" id="email" placeholder="your@email.com" data-i18n-ph="form.email.ph">
+          </div>
+          <div class="form-group">
+            <label for="org" data-i18n="form.label.org">所属医院 / 机构</label>
+            <input type="text" id="org" placeholder="单位名称" data-i18n-ph="form.org.ph">
+          </div>
+          <div class="form-group">
+            <label for="subject" data-i18n="form.label.subject">咨询类型</label>
+            <select id="subject">
+              <option value="" data-i18n="form.select.choose">请选择</option>
+              <option data-i18n="form.select.prod-inquiry">产品咨询</option>
+              <option data-i18n="form.select.tech">技术支持</option>
+              <option data-i18n="form.select.business">商务合作</option>
+              <option data-i18n="form.select.after-sales">售后服务</option>
+              <option data-i18n="form.select.other">其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="product" data-i18n="form.label.product">感兴趣的产品</label>
+            <select id="product">
+              <option value="" data-i18n="form.select.prod-choose">请选择产品系列</option>
+              <option>8100A 系列</option>
+              <option>8200A 系列</option>
+              <option>8200B 系列</option>
+              <option data-i18n="ftr.l.csm">耗材产品</option>
+              <option data-i18n="form.select.uncertain">暂不确定</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="msg" data-i18n="form.label.msg">留言内容</label>
+            <textarea id="msg" placeholder="请详细描述您的需求或问题，我们将尽快回复您…" data-i18n-ph="form.msg.ph"></textarea>
+          </div>
+          <button type="submit" class="btn btn--blue btn--submit" data-i18n="btn.submit">提交留言</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--gray">
+    <div class="section__inner--narrow">
+      <div class="reveal" style="text-align:center;margin-bottom:52px;">
+        <p class="section__eyebrow" data-i18n="cont.faq.eyebrow">常见问题</p>
+        <h2 class="section__title" data-i18n="cont.faq.title">您可能想了解</h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0;" class="reveal">
+        <details style="border-top:1px solid var(--gray-4);padding:20px 0;cursor:pointer;">
+          <summary style="font-size:17px;font-weight:600;color:var(--black);list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            <span data-i18n="cont.faq.1.q">如何申请产品演示？</span><span style="color:var(--blue);font-size:20px;">+</span>
+          </summary>
+          <p style="font-size:15px;color:var(--gray-2);line-height:1.7;margin-top:12px;" data-i18n="cont.faq.1.a">您可以通过上方表单留言，或直接拨打客服热线 4006-881-550，我们的产品顾问将为您安排上门演示或院内参观。</p>
+        </details>
+        <details style="border-top:1px solid var(--gray-4);padding:20px 0;cursor:pointer;">
+          <summary style="font-size:17px;font-weight:600;color:var(--black);list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            <span data-i18n="cont.faq.2.q">产品保修政策是什么？</span><span style="color:var(--blue);font-size:20px;">+</span>
+          </summary>
+          <p style="font-size:15px;color:var(--gray-2);line-height:1.7;margin-top:12px;" data-i18n="cont.faq.2.a">公司对所有整机产品提供标准保修服务，具体保修期限及条款请联系我们的售后服务团队获取详细信息。</p>
+        </details>
+        <details style="border-top:1px solid var(--gray-4);padding:20px 0;cursor:pointer;">
+          <summary style="font-size:17px;font-weight:600;color:var(--black);list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            <span data-i18n="cont.faq.3.q">耗材如何采购？</span><span style="color:var(--blue);font-size:20px;">+</span>
+          </summary>
+          <p style="font-size:15px;color:var(--gray-2);line-height:1.7;margin-top:12px;" data-i18n="cont.faq.3.a">原厂配套耗材可直接联系我们的销售团队订购，支持批量采购及定期配送服务，确保您的手术用量无忧。</p>
+        </details>
+        <details style="border-top:1px solid var(--gray-4);border-bottom:1px solid var(--gray-4);padding:20px 0;cursor:pointer;">
+          <summary style="font-size:17px;font-weight:600;color:var(--black);list-style:none;display:flex;justify-content:space-between;align-items:center;">
+            <span data-i18n="cont.faq.4.q">是否提供设备操作培训？</span><span style="color:var(--blue);font-size:20px;">+</span>
+          </summary>
+          <p style="font-size:15px;color:var(--gray-2);line-height:1.7;margin-top:12px;" data-i18n="cont.faq.4.a">是的，我们为所有采购客户提供免费的设备安装调试和操作培训服务，确保医护人员能够熟练、规范地使用设备。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div>
+          <img src="images/logo/Wandong%20Kangyuan%27s%20horizontal%20black%20logo.png" class="footer__logo-img" alt="万东康源">
+          <div class="footer__brand-name" data-i18n="ftr.brand">北京万东康源科技开发有限公司</div>
+          <p class="footer__brand-desc" data-i18n="ftr.desc">致力于血液健康产品领域，涵盖研发、生产、营销与售后全产业链服务。北京万东医疗参股企业。</p>
+        </div>
+        <div>
+          <div class="footer__col-head" data-i18n="ftr.col.prod">产品中心</div>
+          <div class="footer__col-links">
+            <a href="products.html" class="footer__col-link" data-i18n="ftr.l.8100a">8100A 系列</a>
+            <a href="products.html" class="footer__col-link" data-i18n="ftr.l.8200a">8200A 系列</a>
+            <a href="products.html" class="footer__col-link" data-i18n="ftr.l.8200b">8200B 系列</a>
+            <a href="products.html" class="footer__col-link" data-i18n="ftr.l.csm">耗材产品</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-head" data-i18n="ftr.col.about">关于万东康源</div>
+          <div class="footer__col-links">
+            <a href="about.html" class="footer__col-link" data-i18n="ftr.l.intro">公司简介</a>
+            <a href="about.html" class="footer__col-link" data-i18n="ftr.l.history">发展历程</a>
+            <a href="about.html" class="footer__col-link" data-i18n="ftr.l.culture">企业文化</a>
+            <a href="about.html" class="footer__col-link" data-i18n="ftr.l.honors">荣誉资质</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__col-head" data-i18n="ftr.col.svc">服务与支持</div>
+          <div class="footer__col-links">
+            <a href="news.html"    class="footer__col-link" data-i18n="ftr.l.news">动态信息</a>
+            <a href="careers.html" class="footer__col-link" data-i18n="ftr.l.careers">人才招聘</a>
+            <a href="contact.html" class="footer__col-link" data-i18n="ftr.l.contact">联系我们</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy" data-i18n="ftr.copy">© 2024 北京万东康源科技开发有限公司</div>
+        <div class="footer__legal">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" data-i18n="ftr.beian">京ICP备2023017905号-3</a>
+          <a href="#" data-i18n="ftr.legal">京公网安备</a>
+          <a href="#" data-i18n="ftr.privacy">隐私政策</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
